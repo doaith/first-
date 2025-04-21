@@ -1,0 +1,111 @@
+/* General Styles */
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./WhatsApp%20Image%202025-04-21%20at%2020.22.11_e7fdcd65.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+p, li {
+    font-family: 'Tinos', serif;
+    font-size: 1.2em;
+}
+
+section h2 {
+    text-align: left    ;
+    margin: 20px 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;   
+    border: underline black 2px solid;
+    padding: 10px;  
+    border-radius: 10px;
+
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    font-weight: 700px;
+    position: sticky:
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: fadeIn 2s;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
